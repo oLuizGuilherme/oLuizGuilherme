@@ -6,6 +6,6 @@
   <p>Além de me aprofundar ainda mais em Java, eu quero muito aprender tecnologias front-end, que é a área que eu almejo no futuro. Então se tiver alguma sugestão, eu ficaria muito grato em recebê-la.</p>
   
   <p>Você pode me encontrar no:
-    <br/>- Twitter: <a href="https://twitter.com/oLuizBatata" target="blank">@oLuizBatata</a>
-    <br/>- Instagram: <a href="https://www.instagram.com/oluiz.guilherme/" target="blank">@oluiz.guilherme</a>
-    <br/>- Linkedin: <a href="https://www.linkedin.com/in/luiz-guilherme-machado-zortéa-9b821b186/" target="blank">Luiz Guilherme</a></p>
+    <br/>- Twitter: <a href="https://twitter.com/oLuizBatata_dev" target="blank">@oLuizBatata_dev</a>
+    <br/>- Instagram: <a href="https://www.instagram.com/luizguilherme.dev/" target="blank">@luizguilherme.dev</a>
+    <br/>- Linkedin: <a href="https://www.linkedin.com/in/luizgmzortea/" target="blank">Luiz Guilherme</a></p>
