@@ -1,0 +1,22 @@
+OW_ORANGE="%F{208}"
+OW_WHITE="%F{255}"
+OW_BLACK="%F{235}"
+OW_GRAY="%F{244}"
+BG_ORANGE="%K{208}"
+RESET="%f"
+RESET_BG="%k"
+
+ZSH_THEME_GIT_PROMPT_PREFIX=" ${OW_GRAY}on${RESET} ${OW_ORANGE}➜ "
+ZSH_THEME_GIT_PROMPT_SUFFIX="${RESET}"
+ZSH_THEME_GIT_PROMPT_DIRTY=" ${OW_WHITE}[${OW_ORANGE}✗${OW_WHITE}]${RESET}"
+ZSH_THEME_GIT_PROMPT_CLEAN=" ${OW_WHITE}[%F{green}✓${OW_WHITE}]${RESET}"
+
+function get_current_dir() {
+    echo "${OW_WHITE}%1~${RESET}"
+}
+
+PROMPT="
+${OW_BLACK}${BG_ORANGE}愛美${RESET_BG}${RESET} ${OW_WHITE}%n${RESET}\$(git_prompt_info)
+${OW_ORANGE} 🜅   ${RESET}\$(get_current_dir) ${OW_ORANGE}➜${RESET} "
+
+RPROMPT="${OW_ORANGE} ⌥${OW_WHITE} %T ${RESET}"
